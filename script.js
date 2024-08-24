@@ -1,1 +1,4 @@
-//your JS code here. If required.
+function removeItem(event) {
+	const e = document.getElementById("colorSelect");
+	 e.remove(e.selectedIndex); 
+}
